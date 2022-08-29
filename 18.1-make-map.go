@@ -9,7 +9,10 @@ func main() {
 	student["prodi"] = "Sistem Informasi"
 
 	fmt.Println(student)
+	fmt.Println(len(student))
 	delete(student, "prodi")
+
 	fmt.Println("prodi removed from student")
 	fmt.Println(student)
+	fmt.Println(len(student))
 }
