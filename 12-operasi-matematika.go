@@ -15,4 +15,12 @@ func main() {
 	gaji_perbulan := gaji_pertahun / 12
 	fmt.Println("Gaji Pertahun\t:", gaji_pertahun)
 	fmt.Println("Gaji Perbulan\t:", gaji_perbulan)
+
+	a := 23
+	b := 2
+
+	fmt.Println("a=", a, "b=", b)
+	fmt.Println("a + b =", a + b)
+	fmt.Println("a - b =", a - b)
+	fmt.Println("a % b =", a % b)
 }
